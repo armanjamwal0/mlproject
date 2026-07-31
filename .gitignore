@@ -137,7 +137,6 @@ celerybeat.pid
 *.pid
 
 # RabbitMQ
-.artifacts/
 mnesia/
 rabbitmq/
 rabbitmq-data/
