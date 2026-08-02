@@ -3,7 +3,7 @@ import os
 from datetime import datetime 
 # any exception happend then we can log that exception in one file that help us to check what happend 
 
-LOG_FILE = f'{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log'  # this create a log file name from date 
+LOG_FILE = f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"  # this create a log file name from date 
 # log_path = os.path.join(os.getcwd(),'logs',LOG_FILE)
 # print(log_path)
 logs_dir = os.path.join(os.getcwd(),'logs')
